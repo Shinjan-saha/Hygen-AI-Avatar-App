@@ -59,9 +59,53 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/
+    - assets/index.html
+    - assets/css/style.css
+    - assets/css/Segoe UI.ttf
+    - assets/css/microsoft-5.svg
+    - assets/css/ico/site.webmanifest
+    - assets/js/script.js
+    - assets/assets/aurora.webm
+    - assets/assets/azure.webp
+    - assets/assets/codehacx-logo.webp
+    - assets/assets/devcode-logo.webp
+    - assets/assets/develover-logo.webp
+    - assets/assets/Devorld-logo.webp
+    - assets/assets/devs-logo.webp
+    - assets/assets/eclectica-logo.webp
+    - assets/assets/hackforcode-logo.webp
+    - assets/assets/IEM-MSC.webp
+    - assets/assets/IIC-LOGO.webp
+    - assets/assets/KOTLIN-KOLKATA-UG.webp
+    - assets/assets/microabout.webp
+    - assets/assets/Mlsa.webp
+    - assets/assets/NEWTON-SCHOOL-SNU-LOGO.webp
+    - assets/assets/samarth-logo.webp
+    - assets/assets/sc-logo-white-text.webp
+    - assets/assets/Untitled-design-13.webp
+    - assets/assets/team/aditya.webp
+    - assets/assets/team/anish.webp
+    - assets/assets/team/Arunima-Chatterjee.webp
+    - assets/assets/team/ay-Sharma.webp
+    - assets/assets/team/Debosmita.webp
+    - assets/assets/team/harsh.webp
+    - assets/assets/team/jyoti.webp
+    - assets/assets/team/Kiran.webp
+    - assets/assets/team/Nishi.webp
+    - assets/assets/team/raihan.webp
+    - assets/assets/team/Sabyasachi.webp
+    - assets/assets/team/sadia.webp
+    - assets/assets/team/Saumyadeep.webp
+    - assets/assets/team/simran.webp
+    - assets/assets/team/Soumyajit.webp
+    - assets/assets/team/sourav.webp
+    - assets/assets/team/Subha.webp
+    - assets/assets/team/t-singh.webp
+    - assets/assets/team/vk.png
+
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

@@ -9,13 +9,28 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  bool _isLoading = true;
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        body: WebViewPlus(
-          javascriptMode: JavascriptMode.unrestricted,
-          initialUrl: 'https://www.microsoft-aurora.tech/',
+        body: Stack(
+          children: [
+            WebViewPlus(
+              javascriptMode: JavascriptMode.unrestricted,
+              initialUrl: 'assets/index.html',
+              onPageFinished: (String url) {
+                setState(() {
+                  _isLoading = false; // Hide loading indicator
+                });
+              },
+            ),
+            if (_isLoading)
+              Center(
+                child: CircularProgressIndicator(),
+              ),
+          ],
         ),
       ),
     );
