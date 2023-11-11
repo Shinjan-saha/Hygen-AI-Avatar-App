@@ -22,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
               initialUrl: 'assets/index.html',
               onPageFinished: (String url) {
                 setState(() {
-                  _isLoading = false; // Hide loading indicator
+                  _isLoading = false; 
                 });
               },
             ),
