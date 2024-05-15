@@ -19,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             WebViewPlus(
               javascriptMode: JavascriptMode.unrestricted,
-              initialUrl: 'assets/index.html',
+              initialUrl: 'https://hygen-ai-flutter.vercel.app/',
               onPageFinished: (String url) {
                 setState(() {
                   _isLoading = false; 
